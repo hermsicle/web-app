@@ -33,8 +33,9 @@
     align-items: center;
     flex-direction: column;
 }
-
-
+#app1icon{
+    margin-bottom: 10px;
+}
 .card .front h2 {
     font-size: 1.5rem;
 }
@@ -140,7 +141,9 @@
     width: 200px;
     margin-right: 30px;
 }
-
+#app2icon{
+    margin-bottom: 10px;
+}
 .card2 {
     position: absolute;
     width: 100%;
@@ -246,7 +249,9 @@
 .card3:hover {
     transform: rotateY(180deg);
 }
-
+#app3icon{
+    margin-bottom: 10px;
+}
 .front3 {
     position: absolute;
     width: 100%;
