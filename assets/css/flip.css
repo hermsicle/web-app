@@ -74,6 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .back button {
@@ -82,8 +83,23 @@
     height: 50px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
-
+.back button:hover{
+    cursor:pointer;
+    color: steelblue;
+}
+.back a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.back a:hover{
+    color: steelblue;
+}
 
 /* Css for flip-card2 */
 .flip-container2 {
@@ -140,7 +156,6 @@
     text-decoration: underline;
     margin-bottom: 10px;
 }
-
 .back2 {
     position: absolute;
     width: 100%;
@@ -150,6 +165,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .back2 button {
@@ -158,6 +174,22 @@
     height: 50px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+}
+.back2 button:hover{
+    cursor:pointer;
+    color: steelblue;
+}
+.back2 a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.back2 a:hover{
+    color: steelblue;
 }
 
 
@@ -223,11 +255,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
 .back3 button {
     display: flex;
     width: 50%;
     height: 50px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+}
+.back3 button:hover{
+    cursor:pointer;
+    color: steelblue;
+}
+.back3 a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.back3 a:hover{
+    color: steelblue;
 }

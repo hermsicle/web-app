@@ -20,25 +20,144 @@
     display:flex;
     align-items: center;
     flex-direction: column;
-    background-color: slategray;
+    /* background-color: slategray; */
     /* padding: 2rem 4rem; */
     width: 60%;
-    flex-wrap: wrap;
+    height: 50%;
+    position: relative;
+    justify-items: center;
 }
-
-.modal_contents .modal_close-bar {
+#x-btn{
     display: flex;
-    margin-right: -1rem;
-    cursor: pointer;
-}
 
-.gif1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
 #x-btn:hover {
     cursor: pointer;
     color: red;
+}
+.gif-container{
+    overflow:hidden;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+.gif-container iframe {
+    border: 0;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    display:flex;
+    left:0;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+
+
+/* Model2 */
+.modal2 {
+    /* background-color: (0,0,0,0.8); */
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modal2--hidden{
+    display: none;
+}
+
+.modal2_contents {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: slategray; */
+    /* padding: 2rem 4rem; */
+    width: 60%;
+    height: 50%;
+    position: relative;
+    justify-items: center;
+}
+#x-btn2{
+    display: flex;
+
+}
+#x-btn2:hover {
+    cursor: pointer;
+    color: red;
+}
+.gif-container2{
+    overflow:hidden;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+.gif-container2 iframe {
+    border: 0;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    display:flex;
+    left:0;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+/* model 3 */
+.modal3 {
+    /* background-color: (0,0,0,0.8); */
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modal3--hidden{
+    display: none;
+}
+
+.modal3_contents {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: slategray; */
+    /* padding: 2rem 4rem; */
+    width: 60%;
+    height: 50%;
+    position: relative;
+    justify-items: center;
+}
+#x-btn3{
+    display: flex;
+
+}
+#x-btn3:hover {
+    cursor: pointer;
+    color: red;
+}
+.gif-container3{
+    overflow:hidden;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+.gif-container3 iframe {
+    border: 0;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    display:flex;
+    left:0;
+    bottom: 0;
+    padding-bottom: 10px;
 }
