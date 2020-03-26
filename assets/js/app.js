@@ -6,6 +6,6 @@ const toggleModal = () => {
 document.querySelector('.demo-btn')
     .addEventListener('click', toggleModal);
 
-document.querySelector('.x')
+document.querySelector('#x-btn')
     .addEventListener('click', toggleModal);
 

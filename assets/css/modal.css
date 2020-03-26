@@ -1,0 +1,44 @@
+/* css for modal-card-1 */
+.modal {
+    /* background-color: (0,0,0,0.8); */
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modal--hidden{
+    display: none;
+}
+
+.modal_contents {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: slategray;
+    /* padding: 2rem 4rem; */
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.modal_contents .modal_close-bar {
+    display: flex;
+    margin-right: -1rem;
+    cursor: pointer;
+}
+
+.gif1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#x-btn:hover {
+    cursor: pointer;
+    color: red;
+}

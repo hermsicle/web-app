@@ -84,54 +84,6 @@
     align-items: center;
 }
 
-/* css for modal-card-1 */
-.modal {
-    background-color: (0,0,0,0.8);
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    flex-wrap: wrap;
-}
-
-.modal--hidden{
-    display: none;
-}
-
-.modal_contents {
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: slategray;
-    padding: 2rem 4rem;
-    height: 50%;
-    width: 960px;
-    flex-wrap: wrap;
-}
-
-.modal_contents .modal_close-bar {
-    display: flex;
-    margin-right: -1rem;
-    cursor: pointer;
-    right: 0;
-}
-
-.gif1{
-    display: flex;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.x {
-    color: black;
-}
-
-
 
 /* Css for flip-card2 */
 .flip-container2 {
