@@ -1,0 +1,10 @@
+/* Text Theme Color */
+a, .author-name span, .thumb, .awards-text h3 span, .counter, #grid-container .cbp-l-caption-title, .btn-square:hover, .theme-tab .nav-tabs > li.active > a, .theme-tab .nav-tabs > li.active > a:hover, .theme-tab .nav-tabs > li.active > a:focus, .jumbotron h1{color:#025D8C;}
+
+/* Background Theme Color */
+.logo a::after, .owl-controls .owl-dot.active span, .owl-controls.clickable .owl-dot:hover span, .owl-controls .owl-dot:hover span, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .enter-btn, .main-head h1, .hobbies-wrap, .btn-border-round.dark:hover, .date-wrap, .icon-wrap, .skillbar-bar, .price-box, .singup-btn a:hover, .callout-box, .btn-round, #contact_form .form-btn, .theme-accordian .panel-default > .panel-heading.actives, .btn-border-round:hover, .theme-tab .nav > li > a:hover, .theme-accordian .panel-default > .panel-heading:hover, .alert-theme, .share-this .social-icons ul li a:hover, .reply-btn a, .tags a:hover{background-color:#025D8C;}
+
+/* Border Theme Color */
+.logo a, .btn-border-round.dark:hover, .organization-name, .text-wrap, .btn-border-round:hover, .theme-tab .nav > li > a:hover{
+	border-color:#025D8C;
+}

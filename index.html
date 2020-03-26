@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font CDN-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/section.css">
+    <link rel="stylesheet" href="./assets/css/flip.css">
+    <title>Herman's Portfolio</title>
+</head>
+
+<body>
+
+    <div class="portfolio-container">
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Serivces</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+
+        <header class="showcase">
+            <div class="container showcase-inner">
+                <h1>Welcome</h1>
+                <p>To Herman Liu's Profile</p>
+                <a href="#about" class="btn">Read More</a>
+            </div>
+        </header>
+
+
+        <section id="about">
+            <div class="container about-inner">
+                <h1>Who Am I?</h1>
+                <img class="portrait" src="./assets/images/portrait.JPG" alt="">
+                <p>
+                    I'm a San Francisco native who loves programming, writing, traveling,
+                    and lighting weights. I recently completed my Full Stack Web Development
+                    Bootcamp at UC Berkeley Extension. In addition, I have my Bachelors of
+                    Arts Degree in Criminal Justice Studies from San Francisco State University.
+                </p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container services-inner">
+                <!-- <h1>Services</h1> -->
+                <h1>Front End Focused with Full Stack Experience</h1>
+                <div class="service-boxes">
+                    <div class="front-end-box">
+                        <i id="front-end-icon" class="fa fa-window-maximize fa-3x" aria-hidden="true"></i>
+                        <p>Front End</p>
+                        <ul>
+                            <li>HTML5/CSS</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                    <div class="server-box">
+                        <i id="server-icon" class="fa fa-server fa-3x" aria-hidden="true"></i>
+                        <p>Server</p>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                        </ul>
+                    </div>
+                    <div class="database-box">
+                        <i id="db-icon" class="fa fa-database fa-3x" aria-hidden="true"></i>
+                        <p>Database</p>
+                        <ul>
+                            <li>Firebase</li>
+                            <li>mySQL</li>
+                            <li>mongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container projects-inner">
+                <h2>Project Portfolio</h2>
+                <div class="project-container">
+
+                    <!-- HTML for flip container -->
+                    <div class="flip-container">
+                        <div class="card">
+                            <div class="front">
+                                <!-- Front Content -->
+                                <h2>LarrysList</h2>
+                                <ul>
+                                    <li>React</li>
+                                    <li>Express/Node</li>
+                                    <li>MongoDb</li>
+                                </ul>
+                            </div>
+                            <div class="back">
+                                <!-- back content -->
+                                <button class="demo-btn">View Demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Html for modal -->
+                    <div class="modal modal--hidden">
+                        <div class="modal_contents">
+                            <div class="modal_close-bar">
+                                <span class="x">X</span>
+                            </div>
+                            <a href="https://github.com/SarahJoline/Larryslist" target="_blank">View Source Code</a>
+                            <iframe class="gif1" src="https://giphy.com/embed/UVAuv4lDDRMgfYy052" width="500"
+                                height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="flip-container2">
+                        <div class="card2">
+                            <div class="front2">
+                                <!-- Front Content -->
+                                <h2>Hire A Chef</h2>
+                                <ul>
+                                    <li>Handlebars</li>
+                                    <li>Express/Node</li>
+                                    <li>MongoDb</li>
+                                </ul>
+                            </div>
+                            <div class="back2">
+                                <!-- back content -->
+                                <button class="demo-btn">View Demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-container3">
+                        <div class="card3">
+                            <div class="front3">
+                                <!-- Front Content -->
+                                <h2>Event Toast</h2>
+                                <ul>
+                                    <li>HTML5/CSS</li>
+                                    <li>Express/Node</li>
+                                    <li>Firebase DB</li>
+                                </ul>
+                            </div>
+                            <div class="back3">
+                                <!-- back content -->
+                                <button class="demo-btn">View Demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact">
+            <div class="container contact-inner">
+                <h1>Contact</h1>
+                <p>Welcome to Contacts</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

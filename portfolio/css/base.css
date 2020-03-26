@@ -1,0 +1,11 @@
+@import url("bootstrap.min.css"); 				/* Main Bootstrap */
+@import url("animate.min.css"); 				/* Animate Style */
+@import url("font-awesome.min.css"); 			/* Iconic Fonts */
+/*@import url("simple-sidebar.css");*/			/* Offcanvas Navigation */
+@import url("style.css"); 						/* Default Stylesheet */
+@import url("cubeportfolio.min.css"); 			/* Portfolio Grid */
+@import url("grid.css"); 						/* Smart Devices */
+@import url("owl.carousel.css"); 				/* Owl Carousel Slider */
+@import url("jquery.fancybox.css"); 			/* Lightbox Popup */
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,300italic,300,500,500italic,700.css");				/* Google Font */
+
