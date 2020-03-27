@@ -34,3 +34,16 @@ document.querySelector('.demo-btn3')
 
 document.querySelector('#x-btn3')
     .addEventListener('click', toggleModal3);
+
+
+
+const toggleModal4 = () => {
+    document.querySelector('.modal4')
+        .classList.toggle('modal4--hidden')
+}
+
+document.querySelector('.email-btn')
+    .addEventListener('click', toggleModal4);
+
+document.querySelector('#x-btn4')
+    .addEventListener('click', toggleModal4);

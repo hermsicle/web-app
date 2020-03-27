@@ -1,13 +1,70 @@
-#contact #contact-inner ul li {
-    font-size: 1.3rem;
-}
-
-.email-container form {
+/* css for email-modal */
+.modal4 {
+    /* background-color: (0,0,0,0.8); */
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
     flex-direction: column;
 }
 
-.email-container form #submit-btn{
-    color: slategrey;
-    margin-top: 10px;
+.modal4--hidden{
+    display: none;
+}
+
+.modal4_contents {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    height: 550px;
+    width: 400px;
+    justify-items: center;
+    background-color: steelblue;
+    border-radius: 10px;
+}
+
+#x-btn4{
+    display: flex;
+    position: relative;
+    margin-right: 350px;
+}
+#x-btn4:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#my-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#my-form label{
+    font-size: 1.3rem;
+}
+
+#my-form input {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 30px;
+    font-size: 1.2rem;
+    
+}
+
+#my-form textarea {
+    width: 200px;
+    height: 200px;
+    font-size: 1.3rem;
+}
+
+#my-form #my-form-button:hover{
+    color: steelblue;
 }

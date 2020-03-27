@@ -221,20 +221,28 @@
                         class="fab fa-facebook-square "></i><span>Facebook</span></a>
                 <a href="https://github.com/hermsicle" target="_blank"><i
                         class="fab fa-github-square "></i><span>GitHub</span></a>
-                <a href=""><i class="fas fa-envelope-square " target="_blank"></i><span>Email</span></a>
+                <button class="email-btn"><i class="fas fa-envelope-square "
+                        target="_blank"></i><span>Email</span></button>
                 <ul>
             </div>
 
-            <form id="my-form" action="https://formspree.io/moqlzveo" method="POST">
-                <label>Name:</label>
-                <input type="text" name="name" id="inputName" />
-                <label>Email:</label>
-                <input type="email" name="email" id="inputEmail" />
-                <label>Message:</label>
-                <input type="text" name="message" id="inputMessage" />
-                <button id="my-form-button">Submit</button>
-                <p id="my-form-status"></p>
-            </form>
+            <!-- email-form MODAL container -->
+            <div class="modal4 modal4-hidden">
+                <div class="modal4_contents">
+                    <i id="x-btn4" class="fas fa-times fa-2x"></i>
+                    <form id="my-form" action="https://formspree.io/moqlzveo" method="POST">
+                        <label>Name:</label>
+                        <input type="text" name="name" id="inputName" />
+                        <label>Email:</label>
+                        <input type="email" name="email" id="inputEmail" />
+                        <label>Message:</label>
+                        <textarea id="inputMessage" name="message" cols="30" rows="5"></textarea>
+                        <!-- <input type="text" name="message" id="inputMessage" /> -->
+                        <button id="my-form-button">Submit</button>
+                        <p id="my-form-status"></p>
+                    </form>
+                </div>
+            </div>
         </section>
     </div>
 

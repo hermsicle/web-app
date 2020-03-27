@@ -9,7 +9,7 @@ $('form').submit(function (e) {
         message = document.getElementById('inputMessage')
 
     if (!name.value || !email.value || !message.value) {
-        alert('Please check entries')
+        console.log('fill out entries')
     } else {
         $.ajax({
             url: "https://formspree.io/moqlzveo",
@@ -21,3 +21,4 @@ $('form').submit(function (e) {
     $(this).get(0).reset()
     alert('Message sent')
 })
+

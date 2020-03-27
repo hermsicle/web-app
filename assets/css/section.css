@@ -238,6 +238,22 @@ section {
     font-size: 1.5rem;
 }
 
+#contact a:hover {
+    color: springgreen;
+}
+
+#contact button {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#contact button:hover {
+    color: steelblue;
+}
+
 #contact a i {
     margin-right: 10px;
 }
