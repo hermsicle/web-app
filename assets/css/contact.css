@@ -10,11 +10,10 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    flex-direction: column;
 }
 
-.modal4--hidden{
-    display: none;
+.modal4--hidden {
+    display:none;
 }
 
 .modal4_contents {
@@ -27,11 +26,12 @@
     justify-items: center;
     background-color: steelblue;
     border-radius: 10px;
+    position: relative;
 }
 
 #x-btn4{
     display: flex;
-    position: relative;
+    /* position: relative; */
     margin-right: 350px;
 }
 #x-btn4:hover {
