@@ -227,8 +227,19 @@ section {
     font-size: 4rem;
 }
 
-#contact p{
-    font-size: 1.3rem;
+#contact a {
+    /* justify-items: center;
+    align-items: center;
+    text-align: center;
+    display:flex; */
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+#contact a i {
+    margin-right: 10px;
 }
 
 .portrait{

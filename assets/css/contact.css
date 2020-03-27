@@ -1,0 +1,13 @@
+#contact #contact-inner ul li {
+    font-size: 1.3rem;
+}
+
+.email-container form {
+    display:flex;
+    flex-direction: column;
+}
+
+.email-container form #submit-btn{
+    color: slategrey;
+    margin-top: 10px;
+}

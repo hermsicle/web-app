@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/section.css">
     <link rel="stylesheet" href="./assets/css/flip.css">
     <link rel="stylesheet" href="./assets/css/modal.css">
+    <link rel="stylesheet" href="./assets//css/contact.css">
     <title>Herman's Portfolio</title>
 </head>
 
@@ -207,22 +208,41 @@
                         </div>
                     </div>
 
-
                 </div>
             </div>
         </section>
 
-
-
         <section id="contact">
             <div class="container contact-inner">
                 <h1>Contact</h1>
-                <p>Welcome to Contacts</p>
+                <a href="https://www.linkedin.com/in/hermanliu95/" target="_blank"><i
+                        class="fab fa-linkedin "></i><span>LinkedIn</span></a>
+                <a href="https://www.facebook.com/h3rmanl1u" target="_blank"><i
+                        class="fab fa-facebook-square "></i><span>Facebook</span></a>
+                <a href="https://github.com/hermsicle" target="_blank"><i
+                        class="fab fa-github-square "></i><span>GitHub</span></a>
+                <a href=""><i class="fas fa-envelope-square " target="_blank"></i><span>Email</span></a>
+                <ul>
             </div>
+
+            <form id="my-form" action="https://formspree.io/moqlzveo" method="POST">
+                <label>Name:</label>
+                <input type="text" name="name" id="inputName" />
+                <label>Email:</label>
+                <input type="email" name="email" id="inputEmail" />
+                <label>Message:</label>
+                <input type="text" name="message" id="inputMessage" />
+                <button id="my-form-button">Submit</button>
+                <p id="my-form-status"></p>
+            </form>
         </section>
     </div>
 
+    <!-- jQeury Cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
