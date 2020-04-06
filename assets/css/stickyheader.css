@@ -1,0 +1,42 @@
+/* .menu-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 99%;
+    background-color: lightslategrey;
+    opacity: 0.5;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.main-menu:before{
+    
+}
+
+.menu-header .main-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-header ul {
+    display: flex;
+}
+
+.menu-header ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+.menu-header ul li:hover {
+    transform: translateY(-10px); 
+    transition: 0.2s ease;
+}
+
+.menu-header ul li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+} */

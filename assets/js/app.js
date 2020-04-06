@@ -1,4 +1,13 @@
-// import { on } from "cluster";
+const toggleModal0 = () => {
+    document.querySelector('.modal0')
+        .classList.toggle('modal0--hidden');
+}
+
+document.querySelector('.resume-btn')
+    .addEventListener('click', toggleModal0);
+
+document.querySelector('#xr-btn')
+    .addEventListener('click', toggleModal0);
 
 const toggleModal = () => {
     document.querySelector('.modal')
@@ -47,3 +56,7 @@ document.querySelector('.email-btn')
 
 document.querySelector('#x-btn4')
     .addEventListener('click', toggleModal4);
+
+
+
+
