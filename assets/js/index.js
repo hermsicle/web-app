@@ -8,6 +8,7 @@ $('form').submit(function (e) {
         email = document.getElementById('inputEmail'),
         message = document.getElementById('inputMessage')
 
+    console.log(name, email, message)
     if (!name.value || !email.value || !message.value) {
         console.log('fill out entries')
     } else {

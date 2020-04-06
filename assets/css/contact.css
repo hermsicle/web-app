@@ -21,10 +21,10 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem 4rem;
-    height: 550px;
-    width: 400px;
+    /* height: 550px;
+    width: 400px; */
     justify-items: center;
-    background-color: steelblue;
+    /* background-color: steelblue; */
     border-radius: 10px;
     position: relative;
 }
@@ -32,7 +32,9 @@
 #x-btn4{
     display: flex;
     /* position: relative; */
-    margin-right: 350px;
+    margin-top: 15px;
+    /* border: 0.5px solid #ff5722; */
+    width: auto;
 }
 #x-btn4:hover {
     cursor: pointer;

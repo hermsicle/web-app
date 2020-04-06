@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/flip.css">
     <link rel="stylesheet" href="./assets/css/modal.css">
     <link rel="stylesheet" href="./assets//css/contact.css">
+    <link rel="stylesheet" href="./assets/css/contact-form.css">
     <title>Herman's Portfolio</title>
 </head>
 
@@ -61,7 +62,7 @@
                     Bootcamp at UC Berkeley Extension. In addition, I have my Bachelors of
                     Arts Degree in Criminal Justice Studies from San Francisco State University.
                 </p>
-                <button class="resume-btn">View Resume</button>
+                <button class="resume-btn">Click to View Enlarged Resume</button>
             </div>
 
             <!-- Resume Modal -->
@@ -69,7 +70,6 @@
                 <div class="modal0_contents">
                     <i id="xr-btn" class="fas fa-times fa-3x"></i>
                     <img src="./assets/images/Herman_Resume-1.png" class="my-resume">
-
                 </div>
             </div>
 
@@ -234,29 +234,39 @@
                         class="fab fa-facebook-square "></i><span>Facebook</span></a>
                 <a href="https://github.com/hermsicle" target="_blank"><i
                         class="fab fa-github-square "></i><span>GitHub</span></a>
-                <button class="email-btn"><i class="fas fa-envelope-square "
-                        target="_blank"></i><span>Email</span></button>
+                <button class="email-btn"><i class="fas fa-envelope-square " target="_blank"></i><span>Contact
+                    </span></button>
                 <ul>
             </div>
 
             <!-- email-form MODAL container -->
             <div class="modal4 modal4--hidden">
                 <div class="modal4_contents">
-                    <i id="x-btn4" class="fas fa-times 2x"></i>
-                    <form id="my-form" action="https://formspree.io/moqlzveo" method="POST">
-                        <label>Name:</label>
-                        <input type="text" name="name" id="inputName" />
-                        <label>Email:</label>
-                        <input type="email" name="email" id="inputEmail" />
-                        <label>Message:</label>
-                        <textarea id="inputMessage" name="message" cols="30" rows="5"></textarea>
-                        <!-- <input type="text" name="message" id="inputMessage" /> -->
-                        <button id="my-form-button">Submit</button>
-                        <p id="my-form-status"></p>
-                    </form>
+                    <div class="contact-form">
+                        <i id="x-btn4" class="fas fa-times 2x"></i>
+
+                        <form id="contact-form" method="POST" action="https://formspree.io/moqlzveo">
+                            <input name="name" type="text" class="form-control" id="inputName" placeholder="Your Name"
+                                required>
+                            <br>
+
+                            <input name="email" type="email" class="form-control" id="inputEmail"
+                                placeholder="Your Email" required>
+                            <br>
+
+                            <textarea name="message" class="form-control" id="inputMessage" placeholder="Message"
+                                rows="4" required></textarea></br>
+
+                            <button type="submit" class="form-control submit" value="Submit Message">Send
+                                Message</button>
+
+                            <p id="my-form-status"></p>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
+
     </div>
 
     <!-- jQeury Cdn -->

@@ -22,11 +22,11 @@
     flex-direction: column;
     /* background-color: slategray; */
     /* padding: 2rem 4rem; */
-    width: 60%;
-    height: 90%;
-    position: relative;
+    /* width: 60%;
+    height: 90%; */
+    /* position: relative; */
     justify-items: center;
-    border: 10px solid black;
+    /* border: 3px dotted black; */
 }
 
 .my-resume {
@@ -52,6 +52,8 @@
 
 #xr-btn {
     display: flex;
+    border: 5px solid black;
+    padding: 10px;
 }
 
 #xr-btn:hover {
