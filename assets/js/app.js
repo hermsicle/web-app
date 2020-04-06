@@ -1,13 +1,13 @@
-const toggleModal0 = () => {
-    document.querySelector('.modal0')
-        .classList.toggle('modal0--hidden');
-}
+// const toggleModal0 = () => {
+//     document.querySelector('.modal0')
+//         .classList.toggle('modal0--hidden');
+// }
 
-document.querySelector('.resume-btn')
-    .addEventListener('click', toggleModal0);
+// document.querySelector('.resume-btn')
+//     .addEventListener('click', toggleModal0);
 
-document.querySelector('#xr-btn')
-    .addEventListener('click', toggleModal0);
+// document.querySelector('#xr-btn')
+//     .addEventListener('click', toggleModal0);
 
 const toggleModal = () => {
     document.querySelector('.modal')
